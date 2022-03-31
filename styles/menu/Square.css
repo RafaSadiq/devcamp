@@ -1,0 +1,43 @@
+/* SQUARE FRIES */
+
+.square-container
+    {
+        display: flex;
+        justify-content: center;
+
+    }
+
+.square-container > .squares
+    {
+        width: 1000px;
+    }
+
+.square-container > .squares > .square
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -4px;
+    }
+
+.square > .sq-img img
+    {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+.square > .sq-txt-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 42px;        
+    }
+
+.square > .sq-txt-container h2
+    {
+        color: #cea135;
+    }
+
+
